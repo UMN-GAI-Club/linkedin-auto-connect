@@ -1,0 +1,4 @@
+selenium
+linkedin_scraper
+pandas
+dotenv
