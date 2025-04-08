@@ -4,6 +4,12 @@ This Python script automates sending connection requests on LinkedIn by simulati
 
 ---
 
+## Demo
+
+![gif](assets/linkedin-connect-demo.gif)
+
+---
+
 ## 🚀 Features
 
 - Automatically sends connection requests using simulated keypresses.
