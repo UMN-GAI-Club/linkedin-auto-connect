@@ -17,7 +17,6 @@ This Python script automates sending connection requests on LinkedIn by simulati
 
 - Python 3.8+
 - Google Chrome
-- ChromeDriver (must match your Chrome version)
 - `pip install -r requirements.txt`
 
 ### Required Python packages:
