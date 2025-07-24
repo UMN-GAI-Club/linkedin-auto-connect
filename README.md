@@ -4,6 +4,16 @@ This Python script automates sending connection requests on LinkedIn by simulati
 
 ---
 
+## Setup
+```
+git clone https://github.com/UMN-GAI-Club/linkedin-auto-connect.git
+cd linkedin-auto-connect
+pip install -r requirements.txt
+python3 main.py --delay 1000 --max-connection 20
+```
+
+
+
 ## Demo
 
 ![gif](assets/linkedin-connect-demo.gif)
