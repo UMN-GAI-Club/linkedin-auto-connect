@@ -60,7 +60,9 @@ if __name__ == '__main__':
     
     click_show_all(driver)
     # input("You can now navigate to the desired LinkedIn page with connection requests, then press Enter here to continue...")
-
+    
+    # Wait for the page to load
+    time.sleep(5)
     key_sender = ActionChains(driver)
     # get to the first connect button
     key_sender.send_keys(Keys.TAB).send_keys(Keys.TAB).send_keys(Keys.TAB).send_keys(Keys.ENTER)
