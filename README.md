@@ -15,6 +15,15 @@ python3 main.py --delay 1000 --max-connection 20
 ```
 Now, type your usrname and password in the console/terminal. Or if you know how to get linkedin cookie, get the cookie and put it in a `.env` file: `LINKEDIN_COOKIE="{ACTUAL_COOKIE}"`
 
+<details>
+<summary>Finding your LinkedIn Token</summary>
+
+- Open Chrome 
+- Go to developer tools
+- In thee tab with `Element, Console, Sources, ... ` find `Application` (Click on the `>>` button if not present) 
+- Under `Cookies/https://www.linkedin.com` find the cookie with Name `li_at`. This is your LinkedIn Cookie!
+</details>
+
 
 ## Demo
 
@@ -28,13 +37,3 @@ Now, type your usrname and password in the console/terminal. Or if you know how 
 - Supports login with cookie or email/password.
 - Customizable delay and number of connections.
 - CLI interface for flexibility.
-
----
-
-## 📦 Requirements
-
-- Python 3.8+
-- Google Chrome
-- `pip install -r requirements.txt`
-
-### Required Python packages:
