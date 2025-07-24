@@ -11,7 +11,7 @@ cd linkedin-auto-connect
 pip install -r requirements.txt
 python3 main.py --delay 1000 --max-connection 20
 ```
-
+Now, type your usrname and password in the console/terminal. Or if you know how to get linkedin cookie, get the cookie and put it in a `.env` file: `LINKEDIN_COOKIE="{ACTUAL_COOKIE}"`
 
 
 ## Demo
