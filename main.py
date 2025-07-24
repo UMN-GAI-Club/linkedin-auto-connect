@@ -28,10 +28,11 @@ if __name__ == '__main__':
     driver = webdriver.Chrome()
 
     # Login (use cookie or email/password)
+    print(f"Logging in with {'cookie' if COOKIE else 'email and password'}...")
     driver.get("https://www.linkedin.com")
     actions.login(driver, EMAIL, PASSWORD, COOKIE, timeout=1000)
 
-    driver.get("https://www.linkedin.com/feed")
+    driver.get("https://www.linkedin.com/mynetwork/grow/")
     input("Navigate to the desired LinkedIn page, then press Enter here to continue...")
 
     key_sender = ActionChains(driver)
